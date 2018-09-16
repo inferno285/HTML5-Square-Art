@@ -1,0 +1,51 @@
+The canvas is made up of cells that can be split either vertically or horizontally. 
+
+While creating a template of cells you can change the colors by modifying Hue, Lighntess, and Saturation.
+
+To split cells use _A_ (vertical) and _Z_ (horizontal).
+If you hold both A and Z then it will split the cell into 4 cells.
+
+When changing a color use _H_ for Hue (color) _L_ for lightness (whiteness) and _S_ for saturation (intensity/non dullness)
+
+To change the colors of a cell hold H, S, or L and scroll the wheel. Using _Shift_ while scrolling will increase the speed.
+
+You can combine cells as long as the combination is a rectangle. Just hole _J_ and click the cells you want to join or drag over all the cells.
+All the cells once combined will take the color of the first cell.
+
+To copy color from a cell to the clipboard hold _C_ and click on any cell.
+
+To paste the color hold _P_ and click any cell or drag over any cells. Hold _P_ and click _B_ set the color for the borders.
+
+You can also copy only Hue, Saturation or Light and paste only the corresponding feature by using C+H/S/L or P+H/S/L.
+
+Modify all cells at the same time by holding H/S/L and _G_ then scroll.
+
+To remove or change the thickness of the border press _B_
+
+Use Ctrl _Z_ to revert but it only works for cell changes not color changes.
+
+To Erase everything and start over press E.
+
+
+The site loads with a few examples in the change history. Click ctrl-z to view.
+
+
+A + Click splits a cell vertically
+Z + Click splits a cell horizontally
+A+Z + Click splits a cell both ways
+H + Scroll over cell changes Hue
+L + Scroll over cell changes Lightness
+S + Scroll over cell changes Saturation
+J + Click each cell you want to join
+C + Click copies color
+C + H/S/L + Click copies Hue/Sat/Light
+P + Click pastes color
+P + H/S/L + Click pastes Hue/Sat/Light
+M + H/S/L + Scroll to change border color
+G + H/S/L + Scroll applies to all cells
+P + B Changes border color to last copied
+B changes/removes border width
+Paste and Join support dragging
+Ctrl + Z only reverses cell splits
+Use Shift to speed up scrolling
+E Erases everything
